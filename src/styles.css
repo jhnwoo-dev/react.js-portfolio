@@ -1,8 +1,8 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Bowlby+One+SC&display=swap');
 
 *{
     box-sizing: border-box;
+    font-family: 'Bowlby One', cursive;
     font-family: 'Bowlby One SC', cursive;
 }
 
@@ -11,20 +11,34 @@ body{
     background-color: #F2F2F2;
 }
 
+/* Header Styling */
 .header{
+    height: 10vh;
     background-color: #A8C686;
-    color:#736F72;
+    color:#F2F2F2;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
+
+}
+.header a{
+    text-decoration:none;
+    color:inherit
+}
+.header:hover{
+    color: #736F72;
+   }
+.header:active{
+ color: #736F72;
 }
 .title-text{
     font-size: 2rem;
     letter-spacing: 4px;
 }
 
+/* Navigation Styling */
 .nav{
     color: #F2F2F2;
     display: flex;
@@ -35,8 +49,6 @@ body{
     gap: 2rem;
     align-items: stretch;
 }
-
-
 .nav ul{
     padding:0;
     margin: 0;
@@ -44,11 +56,9 @@ body{
     display: flex;
     gap: 1rem
 }
-
 .nav a {
  color: inherit;
 }
-
 .nav li:hover{
  color: #736F72;
 }
@@ -56,14 +66,34 @@ body{
  color: #736F72;
 }
 
+/* Body/Content Styling */
+.content{
+    height: 75vh;
+    margin: 0 2rem;
+    text-align: center;
+}
+
+
+/* About-Me Styling*/
+#photo{
+    width: auto;
+    height:60%;
+}
+
+#about-text{
+    font-family: 'Bowlby One SC', cursive;
+    margin: 2rem 6rem;
+}
+
+/* Footer Styling */
 .footer{
     color: #A8C686;
     letter-spacing: 2px;
     gap: 2rem;
     align-items: stretch;
 }
-
 .footer ul{
+    height:10vh;
     padding:0;
     margin: 0;
     list-style: none;
@@ -72,11 +102,9 @@ body{
     align-items: center;
     gap: 1rem
 }
-
 .footer a{
     color:inherit;
 }
-
 .footer li:hover{
  color: #736F72;
 }

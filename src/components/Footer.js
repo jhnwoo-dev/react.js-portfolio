@@ -8,7 +8,7 @@ export const Footer = () => {
                     <a href="https://github.com/jhnwoo-dev"> GitHub</a>
                 </li>
                 <li>
-                    <a href="www.linkedin.com/in/jhnwoo"> LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/jhnwoo"> LinkedIn</a>
                 </li>
             </ul>
         </div>

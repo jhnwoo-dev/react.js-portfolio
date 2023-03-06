@@ -1,15 +1,37 @@
+import {
+    BrowserRouter as Router,
+    Route,
+    Routes,
+    Navigate,
+} from "react-router-dom";
+
+// Main Structure
 import { Header } from "./components/Header";
-import { Content } from "./components/Content";
 import { Footer } from "./components/Footer";
+
+// Pages
+import { AboutMe } from "./components/pages/AboutMe";
+import { Contact } from "./components/pages/Contact";
+import { Portfolio } from "./components/pages/Portfolio";
+import { Resume } from "./components/pages/Resume";
+
 import "./styles.css";
 
 function App() {
     return (
-        <div className="App">
-            <Header />
-            {/* <Content pageToDisplay={currentPage}></Content> */}
-            <Footer />
-        </div>
+        <Router>
+            <div className="App">
+                <Header />
+                <Routes>
+                    <Route path="/" element={<AboutMe />} />
+                    <Route path="/about-me" element={<AboutMe />} />
+                    <Route path="/portfolio" element={<Portfolio />} />
+                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/resume" element={<Resume />} />
+                </Routes>
+                <Footer />
+            </div>
+        </Router>
     );
 }
 
