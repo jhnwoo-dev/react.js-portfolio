@@ -19,6 +19,8 @@ To install my portfolio page, clone the repository to a directory of your choice
 ## Usage
 
 Visit my portfolio page via the link:
+<br>
+https://jhnwoo-dev.github.io/react.js-portfolio/
 
 ## Credits
 
