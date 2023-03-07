@@ -20,7 +20,7 @@ To install my portfolio page, clone the repository to a directory of your choice
 
 Visit my portfolio page via the link:
 <br>
-https://jhnwoo-dev.github.io/react.js-portfolio/
+https://jhnwoo-dev-react-portfolio.netlify.app/
 
 ## Credits
 
