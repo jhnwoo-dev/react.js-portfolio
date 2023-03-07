@@ -1,9 +1,4 @@
-import {
-    BrowserRouter as Router,
-    Route,
-    Routes,
-    Navigate,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 // Main Structure
 import { Header } from "./components/Header";
@@ -29,7 +24,6 @@ function App() {
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/resume" element={<Resume />} />
                 </Routes>
-                <Footer />
             </div>
         </Router>
     );

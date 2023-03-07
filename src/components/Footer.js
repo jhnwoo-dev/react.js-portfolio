@@ -5,10 +5,19 @@ export const Footer = () => {
         <div className="footer">
             <ul>
                 <li>
-                    <a href="https://github.com/jhnwoo-dev"> GitHub</a>
+                    <a href="https://github.com/jhnwoo-dev" target="_blank">
+                        {" "}
+                        GitHub
+                    </a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/jhnwoo"> LinkedIn</a>
+                    <a
+                        href="https://www.linkedin.com/in/jhnwoo"
+                        target="_blank"
+                    >
+                        {" "}
+                        LinkedIn
+                    </a>
                 </li>
             </ul>
         </div>

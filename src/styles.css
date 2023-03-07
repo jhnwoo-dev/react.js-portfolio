@@ -1,21 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 *{
     box-sizing: border-box;
-    font-family: 'Bowlby One', cursive;
-    font-family: 'Bowlby One SC', cursive;
+    font-family: 'Lato', sans-serif;
+    color: #F5ECE0;
 }
 
 body{
     margin:0;
-    background-color: #F2F2F2;
+    background-color: #505250;
 }
 
 /* Header Styling */
 .header{
     height: 10vh;
-    background-color: #A8C686;
-    color:#F2F2F2;
+    background-color: #2A2E2B;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -28,10 +27,10 @@ body{
     color:inherit
 }
 .header:hover{
-    color: #736F72;
+    color: #B84102;
    }
 .header:active{
- color: #736F72;
+ color: #B84102;
 }
 .title-text{
     font-size: 2rem;
@@ -40,7 +39,6 @@ body{
 
 /* Navigation Styling */
 .nav{
-    color: #F2F2F2;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -60,10 +58,10 @@ body{
  color: inherit;
 }
 .nav li:hover{
- color: #736F72;
+ color: #B84102;
 }
 .nav li:active{
- color: #736F72;
+ color: #B84102;
 }
 
 /* Body/Content Styling */
@@ -75,14 +73,93 @@ body{
 
 
 /* About-Me Styling*/
+
 #photo{
     width: auto;
     height:60%;
 }
 
 #about-text{
-    font-family: 'Bowlby One SC', cursive;
     margin: 2rem 6rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Contact Styling */
+.contact-me{
+    height:90vh;
+    color: #B84102;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    letter-spacing: 2px;
+    gap: 1rem;
+}
+.contact-me ul{
+    padding:0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.contact-me a {
+ color: inherit;
+}
+.contact-me li:hover{
+ color: #B84102;
+}
+.contact-me li:active{
+ color: #B84102;
+}
+
+/* Portfolio Styling */
+.portfolio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2rem 1rem;
+}
+
+.card {
+    background-color: #2A2E2B;
+    padding: 2%;
+    height: 500px;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(43, 43, 43, 0.4);
+    overflow: hidden;
+}
+
+.card img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.card-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.card-btn button {
+    background-color: #B84102;
+    margin: 15px;
+    padding: 5px;
+    width: 75px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.portfolio .card:hover{
+    border-radius: 16px;
+    border: 3px solid #B84102;
+    background-color:#30382C ;
 }
 
 /* Footer Styling */
@@ -93,7 +170,7 @@ body{
     align-items: stretch;
 }
 .footer ul{
-    height:10vh;
+    height:15vh;
     padding:0;
     margin: 0;
     list-style: none;
@@ -106,8 +183,18 @@ body{
     color:inherit;
 }
 .footer li:hover{
- color: #736F72;
+ color: #B84102;
 }
 .footer li:active{
- color: #736F72;
+ color: #B84102;
 }
+
+/* General Styling */
+.amber-text{
+    color:#B84102
+}
+
+.remove-line{
+    text-decoration:none;
+}
+
