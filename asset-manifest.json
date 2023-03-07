@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react.js-portfolio/static/css/main.76056a20.css",
+    "main.js": "/react.js-portfolio/static/js/main.84284b43.js",
+    "static/media/heroClash.png": "/react.js-portfolio/static/media/heroClash.793d04fe953969171c6e.png",
+    "static/media/worldOfWordcraft.png": "/react.js-portfolio/static/media/worldOfWordcraft.afcdab5b2a620da9ac5e.png",
+    "static/media/Jason-grad-photo.jpeg": "/react.js-portfolio/static/media/Jason-grad-photo.18c841b94ca87f0fad6b.jpeg",
+    "static/media/jason-nguyen-resume.jpg": "/react.js-portfolio/static/media/jason-nguyen-resume.1cd0858eecfd57a1b97f.jpg",
+    "index.html": "/react.js-portfolio/index.html",
+    "main.76056a20.css.map": "/react.js-portfolio/static/css/main.76056a20.css.map",
+    "main.84284b43.js.map": "/react.js-portfolio/static/js/main.84284b43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76056a20.css",
+    "static/js/main.84284b43.js"
+  ]
+}
