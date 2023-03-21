@@ -8,11 +8,16 @@
 
 #root{
     background-color: var(--light-cream);
-    --light-cream: #d1ccc0;
+    --light-cream: #dfdcd6;
+    --cream: #d1ccc0;
     --dark-cream: #ada890;
+    --grey: #a8aaa9;
+    --darkgrey: #68696e;
+    --lightsleeves-blue: #98c0d9;
     --sleeves-blue: #5d7b95;
     --darksleeves-blue: #3f5d77;
     --lightsleeves-blue: #a4bbd1;
+    --lightsleeves-red: #e0b2a6;
     --sleeves-red: #906466;
     --darksleeves-red: #7c474a;
 }
@@ -93,14 +98,19 @@ body{
     padding: 0 150px;
 }
 
+.intro-greeting{
+    font-size: 1rem;
+    margin: 0 0;
+    color: var(--darksleeves-blue)
+}
 .intro-text{
     font-size: 4rem;
-    margin-bottom: 4px;
+    margin: 4px 0;
     color: var(--darksleeves-red)
 }
 .intro-sub{
     font-size: 2rem;
-    margin-top: 4px;
+    margin: 4px 0;
 }
 .intro-info{
     margin-top: 4px;
@@ -109,46 +119,67 @@ body{
 
 /* About-Me Styling*/
 
+.aboutme-container{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutme-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 350px;
+    margin: 0 0;
+}
+
 #photo{
-    width: auto;
-    height:60%;
+    width: 40%;
+    height:80%;
+}
+
+.about-header{
+    font-size: 3rem;
+    color: var(--darksleeves-red)
 }
 
 #about-text{
-    margin: 2rem 6rem;
+    margin: 1rem 4rem;
+    padding-right: 100px;
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: flex-start;
 }
 
 /* Contact Styling */
 .contact-me{
     height:90vh;
-    color: #906466;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     gap: 1rem;
 }
-.contact-me ul{
-    padding:0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+.contact-btn{
+    margin: 16px 0;
+    padding: 4px 8px;
+    background-color: var(--lightsleeves-blue);
+    border: solid 2px var(--darksleeves-blue);
+    border-radius: 8px;
 }
-.contact-me a {
- color: inherit;
+.contact-inputs{
+    margin: 0 0;
+    padding: 4px 8px;
+    background-color: white;
+    border: solid 2px var(--dark-cream);
+    border-radius: 8px;
 }
-.contact-me li:hover{
- color: #906466;
-}
-.contact-me li:active{
- color: #906466;
+
+.message-box{
+    height: 20%;
+    width: 25%;
 }
 
 /* Portfolio Styling */
@@ -222,8 +253,12 @@ body{
 .footer li:active{
  color: #906466;
 }
+.footer-img{
+    height:35px;
+    width: 35px;
+}
 
-/* .remove-line{
+.remove-line{
     text-decoration:none;
-} */
+}
 
