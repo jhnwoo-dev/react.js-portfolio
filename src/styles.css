@@ -1,20 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 *{
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-    color: #F5ECE0;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+}
+
+#root{
+    background-color: var(--light-cream);
+    --light-cream: #d1ccc0;
+    --dark-cream: #ada890;
+    --sleeves-blue: #5d7b95;
+    --darksleeves-blue: #3f5d77;
+    --lightsleeves-blue: #a4bbd1;
+    --sleeves-red: #906466;
+    --darksleeves-red: #7c474a;
 }
 
 body{
-    margin:0;
-    background-color: #505250;
+    margin:0;  
 }
 
 /* Header Styling */
 .header{
-    height: 10vh;
-    background-color: #2A2E2B;
+    height: 5vh;
+    background-color: var(--sleeves-blue);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -26,11 +36,11 @@ body{
     text-decoration:none;
     color:inherit
 }
-.header:hover{
-    color: #B84102;
+.title-text:hover{
+    color: var(--lightsleeves-blue);
    }
-.header:active{
- color: #B84102;
+.title-text:active{
+ color: var(--lightsleeves-blue);
 }
 .title-text{
     font-size: 2rem;
@@ -50,27 +60,52 @@ body{
 .nav ul{
     padding:0;
     margin: 0;
-    list-style: none;
+    list-style:none;
     display: flex;
-    gap: 1rem
+    gap: 3rem
 }
 .nav a {
  color: inherit;
 }
 .nav li:hover{
- color: #B84102;
+ color: var(--lightsleeves-blue);
 }
 .nav li:active{
- color: #B84102;
+ color: var(--lightsleeves-blue);
 }
 
 /* Body/Content Styling */
 .content{
-    height: 75vh;
+    height: 90vh;
     margin: 0 2rem;
     text-align: center;
 }
 
+/* Home Styling */
+.home-content{
+    height: 90vh;
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 0 150px;
+}
+
+.intro-text{
+    font-size: 4rem;
+    margin-bottom: 4px;
+    color: var(--darksleeves-red)
+}
+.intro-sub{
+    font-size: 2rem;
+    margin-top: 4px;
+}
+.intro-info{
+    margin-top: 4px;
+    width: 40%;
+}
 
 /* About-Me Styling*/
 
@@ -89,7 +124,7 @@ body{
 /* Contact Styling */
 .contact-me{
     height:90vh;
-    color: #B84102;
+    color: #906466;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -110,14 +145,15 @@ body{
  color: inherit;
 }
 .contact-me li:hover{
- color: #B84102;
+ color: #906466;
 }
 .contact-me li:active{
- color: #B84102;
+ color: #906466;
 }
 
 /* Portfolio Styling */
 .portfolio{
+    height: 90vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -125,7 +161,7 @@ body{
 }
 
 .card {
-    background-color: #2A2E2B;
+    background-color: #ada890;
     padding: 2%;
     height: 500px;
     width: 500px;
@@ -148,7 +184,7 @@ body{
 }
 
 .card-btn button {
-    background-color: #B84102;
+    background-color: #5d7b95;
     margin: 15px;
     padding: 5px;
     width: 75px;
@@ -158,19 +194,17 @@ body{
 
 .portfolio .card:hover{
     border-radius: 16px;
-    border: 3px solid #B84102;
-    background-color:#30382C ;
+    border: 3px solid black;
+    background-color:#ada890 ;
 }
 
 /* Footer Styling */
 .footer{
-    color: #A8C686;
     letter-spacing: 2px;
-    gap: 2rem;
     align-items: stretch;
 }
 .footer ul{
-    height:15vh;
+    height:5vh;
     padding:0;
     margin: 0;
     list-style: none;
@@ -183,18 +217,13 @@ body{
     color:inherit;
 }
 .footer li:hover{
- color: #B84102;
+ color: #906466;
 }
 .footer li:active{
- color: #B84102;
+ color: #906466;
 }
 
-/* General Styling */
-.amber-text{
-    color:#B84102
-}
-
-.remove-line{
+/* .remove-line{
     text-decoration:none;
-}
+} */
 

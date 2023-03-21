@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Project from "../Project";
+import Project from "../components/Project";
 import imgArr from "./assets/index";
 
 export const Portfolio = () => {
