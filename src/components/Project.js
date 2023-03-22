@@ -12,16 +12,15 @@ export const Project = (props) => {
                         href={props.link}
                         target="_blank"
                         rel="noreferrer"
-                        id="link-btn"
-                    >
+                        id="link-btn">
                         <button type="button">Link</button>
                     </a>
+
                     <a
                         href={props.repolink}
                         target="_blank"
                         rel="noreferrer"
-                        id="repo-btn"
-                    >
+                        id="repo-btn">
                         <button type="button">GitHub</button>
                     </a>
                 </div>

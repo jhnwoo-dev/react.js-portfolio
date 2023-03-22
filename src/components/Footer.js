@@ -11,11 +11,9 @@ export const Footer = () => {
                         <img className="footer-img" src={github}></img>
                     </a>
                 </li>
+
                 <li>
-                    <a
-                        href="https://www.linkedin.com/in/jhnwoo"
-                        target="_blank"
-                    >
+                    <a href="https://www.linkedin.com/in/jhnwoo" target="_blank">
                         <img className="footer-img" src={linkedin}></img>
                     </a>
                 </li>

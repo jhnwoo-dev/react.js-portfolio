@@ -8,9 +8,12 @@ export const AboutMe = () => {
 
             <div className="aboutme-content">
                 <img src={me} alt="Jason Nguyen Photo" id="photo"></img>
+
                 <br></br>
+
                 <div id="about-text">
                     <h3 className="intro-sub">Hello, my name is Jason - Welcome to my portfolio!</h3>
+
                     <p >
                         I am a private banker that has transitioned to software development located in Seattle, Washington. I have my BA in Psychology at the University of Washington, as well as a certificate from the Univeristy of Washington/EdX Full Stack Developer Bootcamp.
                         <br />

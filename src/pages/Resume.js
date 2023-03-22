@@ -5,6 +5,7 @@ export const Resume = () => {
     return (
         <div className="content">
             <h1 className="blue-text">Resume</h1>
+
             <img src={resume} alt="Jason Nguyen Resume"></img>
         </div>
     );
