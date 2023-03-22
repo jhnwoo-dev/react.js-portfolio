@@ -18,15 +18,17 @@ export const Contact = () => {
     };
 
     return (
-        <form className="contact-me" ref={form} onSubmit={sendEmail}>
-            <label className="contact-label">Name</label>
-            <input className="contact-inputs" type="text" name="user_name" />
-            <label className="contact-label">Email</label>
-            <input className="contact-inputs" type="email" name="user_email" />
-            <label className="contact-label">Message</label>
-            <textarea className="contact-inputs message-box" name="message" />
-            <input className="contact-btn" type="submit" value="Send" />
-        </form>
+        <div className="contact-container">
+            <form className="contact-me" ref={form} onSubmit={sendEmail}>
+                <label className="contact-label">Name:</label>
+                <input className="contact-inputs" type="text" name="user_name" />
+                <label className="contact-label">Email:</label>
+                <input className="contact-inputs" type="email" name="user_email" />
+                <label className="contact-label">Message:</label>
+                <textarea className="contact-inputs message-box" name="message" />
+                <input className="contact-btn" type="submit" value="Send" />
+            </form>
+        </div>
     );
 };
 

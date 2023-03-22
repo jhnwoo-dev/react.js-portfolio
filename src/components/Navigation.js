@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import resume from "./assets/resume.pdf"
 
 export const Navigation = () => {
     return (
@@ -14,7 +15,7 @@ export const Navigation = () => {
                     <a href="/contact"> Contact</a>
                 </li>
                 <li>
-                    <a href="/resume"> Resume</a>
+                    <a className="resume-btn" href={resume} target="_blank" rel="noopener noreferrer"> Resume</a>
                 </li>
             </ul>
         </nav>

@@ -20,7 +20,7 @@ export const AboutMe = () => {
                         problems and work exceptionally in team environments. When working in teams, I enjoy organizing roles and  and working together to produce creative solutions for unique problems.
                         <br />
                         <br />
-                        In my freetime, I enjoy building custom mechanical keyboards for myself and others, as well as training and competing in powerlifting.
+                        In my freetime, I enjoy spending quality time with friends and family, building custom mechanical keyboards for myself and others, as well as training and competing in powerlifting.
                     </p>
                 </div>
             </div>

@@ -153,33 +153,42 @@ body{
 }
 
 /* Contact Styling */
+.contact-container{
+    height: 90vh;
+}
 .contact-me{
-    height:90vh;
+    height: 90vh;
+    position: absolute;
+    margin: auto;
+    top:0; bottom: 0; left: 0; right: 0;
+    height:50%;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     letter-spacing: 1px;
-    gap: 1rem;
+    /* gap: 1rem; */
+}
+.contact-me *{
+    margin: 0;
+    padding: 0;
 }
 .contact-btn{
-    margin: 16px 0;
+    margin: 1rem 0;
     padding: 4px 8px;
     background-color: var(--lightsleeves-blue);
     border: solid 2px var(--darksleeves-blue);
     border-radius: 8px;
 }
 .contact-inputs{
+    left: 0;
     margin: 0 0;
     padding: 4px 8px;
     background-color: white;
     border: solid 2px var(--dark-cream);
     border-radius: 8px;
 }
-
-.message-box{
-    height: 20%;
-    width: 25%;
+.contact-label{
+    margin-top: 1rem;
 }
 
 /* Portfolio Styling */
@@ -227,6 +236,21 @@ body{
     border-radius: 16px;
     border: 3px solid black;
     background-color:#ada890 ;
+}
+
+/* Resume Button */
+
+.resume-btn{
+    background-color: var(--darksleeves-red);
+    border: solid 2px var(--darksleeves-red);
+    padding: 2px;
+    border-radius: 8px;
+}
+.resume-btn:hover{
+    background-color: var(--sleeves-red) !important;
+    color: var(--light-cream) !important;
+    padding: 2px;
+    border-radius: 8px;
 }
 
 /* Footer Styling */

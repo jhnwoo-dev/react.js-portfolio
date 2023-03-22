@@ -3,7 +3,7 @@ import React, { useState } from "react";
 export const Home = () => {
     return (
         <section className="home-content">
-            <h4 className="intro-greeting">Hello, my name is</h4>
+            <h4 className="intro-greeting">Hi there, my name is</h4>
             <h2 className="intro-text">Jason Nguyen.</h2>
             <h3 className="intro-sub">Full Stack Software Developer.</h3>
             <p className="intro-info">
