@@ -16,17 +16,15 @@ import "./styles.css";
 function App() {
     return (
         <Router>
-            <div className="App">
-                <Header />
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/about-me" element={<AboutMe />} />
-                    <Route path="/portfolio" element={<Portfolio />} />
-                    <Route path="/contact" element={<Contact />} />
-                    {/* <Route path="/resume" element={<Resume />} /> */}
-                </Routes>
-                <Footer />
-            </div>
+            <Header />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about-me" element={<AboutMe />} />
+                <Route path="/portfolio" element={<Portfolio />} />
+                <Route path="/contact" element={<Contact />} />
+                {/* <Route path="/resume" element={<Resume />} /> */}
+            </Routes>
+            <Footer />
         </Router>
     );
 }

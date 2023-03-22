@@ -7,6 +7,8 @@
 }
 
 #root{
+    position:relative;
+    min-height:100vh;
     background-color: var(--light-cream);
     --light-cream: #dfdcd6;
     --cream: #d1ccc0;
@@ -79,17 +81,10 @@ body{
  color: var(--lightsleeves-blue);
 }
 
-/* Body/Content Styling */
-.content{
-    height: 90vh;
-    margin: 0 2rem;
-    text-align: center;
-}
-
 /* Home Styling */
 .home-content{
-    height: 90vh;
-    margin: 0 2rem;
+    height: 100%;
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,7 +115,7 @@ body{
 /* About-Me Styling*/
 
 .aboutme-container{
-    height: 90vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -189,6 +184,7 @@ body{
 }
 .contact-label{
     margin-top: 1rem;
+    padding-left: 2px;
 }
 
 /* Portfolio Styling */
@@ -241,13 +237,13 @@ body{
 /* Resume Button */
 
 .resume-btn{
-    background-color: var(--darksleeves-red);
+    background-color: var(--sleeves-red);
     border: solid 2px var(--darksleeves-red);
     padding: 2px;
     border-radius: 8px;
 }
 .resume-btn:hover{
-    background-color: var(--sleeves-red) !important;
+    background-color: var(--darksleeves-red) !important;
     color: var(--light-cream) !important;
     padding: 2px;
     border-radius: 8px;
@@ -255,17 +251,18 @@ body{
 
 /* Footer Styling */
 .footer{
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
     letter-spacing: 2px;
     align-items: stretch;
 }
 .footer ul{
-    height:5vh;
     padding:0;
     margin: 0;
     list-style: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 1rem
 }
 .footer a{
