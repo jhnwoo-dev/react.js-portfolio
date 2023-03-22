@@ -5,7 +5,6 @@
     font-family: 'Nunito', sans-serif;
     color: black;
 }
-
 #root{
     position:relative;
     min-height:100vh;
@@ -23,7 +22,6 @@
     --sleeves-red: #906466;
     --darksleeves-red: #7c474a;
 }
-
 body{
     margin:0;  
 }
@@ -82,15 +80,14 @@ body{
 }
 
 /* Resume Button */
-
 .resume-btn{
-    background-color: var(--sleeves-red);
+    background-color: var(--lightsleeves-red);
     border: solid 2px var(--darksleeves-red);
     padding: 8px;
     border-radius: 8px;
 }
 .resume-btn:hover{
-    background-color: var(--darksleeves-red);
+    background-color: var(--sleeves-red);
     color: var(--light-cream);
     border-radius: 8px;
 }
@@ -104,9 +101,8 @@ body{
     justify-content: center;
     align-items: flex-start;
     margin: 0 auto;
-    padding: 0 150px;
+    padding: 0 200px;
 }
-
 .intro-greeting{
     font-size: 1rem;
     margin: 0 0;
@@ -118,6 +114,7 @@ body{
     color: var(--darksleeves-red)
 }
 .intro-sub{
+    color: var(--sleeves-blue);
     font-size: 2rem;
     margin: 4px 0;
 }
@@ -127,7 +124,6 @@ body{
 }
 
 /* About-Me Styling*/
-
 .aboutme-container{
     height: 100%;
     display: flex;
@@ -141,17 +137,15 @@ body{
     padding: 0 350px;
     margin: 0 0;
 }
-
 #photo{
     width: 40%;
     height:80%;
+    border-radius: 8px;
 }
-
 .about-header{
     font-size: 3rem;
     color: var(--darksleeves-red)
 }
-
 #about-text{
     margin: 1rem 4rem;
     padding-right: 100px;
@@ -163,10 +157,9 @@ body{
 
 /* Contact Styling */
 .contact-container{
-    height: 90vh;
+    height: 100%;
 }
 .contact-me{
-    height: 90vh;
     position: absolute;
     margin: auto;
     top:0; bottom: 0; left: 0; right: 0;
@@ -175,7 +168,6 @@ body{
     display: flex;
     flex-direction: column;
     letter-spacing: 1px;
-    /* gap: 1rem; */
 }
 .contact-me *{
     margin: 0;
@@ -184,9 +176,12 @@ body{
 .contact-btn{
     margin: 1rem 0;
     padding: 4px 8px;
-    background-color: var(--lightsleeves-blue);
+    background-color: var(--sleeves-blue);
     border: solid 2px var(--darksleeves-blue);
     border-radius: 8px;
+}
+.contact-btn:hover{
+    background-color: var(--lightsleeves-blue);
 }
 .contact-inputs{
     left: 0;
@@ -209,7 +204,6 @@ body{
     align-items: center;
     margin: 2rem 1rem;
 }
-
 .card {
     background-color: #ada890;
     padding: 2%;
@@ -219,7 +213,6 @@ body{
     box-shadow: 0 0 20px rgba(43, 43, 43, 0.4);
     overflow: hidden;
 }
-
 .card img {
     height: 50%;
     width: 100%;
@@ -232,7 +225,6 @@ body{
     align-items: center;
     border-radius: 12px;
 }
-
 .card-btn button {
     background-color: #5d7b95;
     margin: 15px;
@@ -241,7 +233,6 @@ body{
     border-radius: 8px;
     cursor: pointer;
 }
-
 .portfolio .card:hover{
     border-radius: 16px;
     border: 3px solid black;
@@ -267,17 +258,16 @@ body{
 .footer a{
     color:inherit;
 }
-.footer li:hover{
+.footer:hover{
  color: #906466;
 }
-.footer li:active{
+.footer:active{
  color: #906466;
 }
 .footer-img{
     height:35px;
     width: 35px;
 }
-
 .remove-line{
     text-decoration:none;
 }
