@@ -6,7 +6,7 @@ export const Portfolio = () => {
     return (
         <main className="portfolio">
 
-            <strong>Under Construction!</strong>
+            <h1>Under Construction :)</h1>
 
             {/* <section>
                 <Project

@@ -216,11 +216,10 @@ body{
 
 /* Portfolio Styling */
 .portfolio{
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 2rem 1rem;
 }
 .card {
     background-color: #ada890;
@@ -373,6 +372,10 @@ body{
         height:50%;
         width: 45%;
     }
+    .footer-img{
+        height:1.75rem;
+        width: 1.75rem;
+    }
 }
 @media screen and (max-width: 992px){
     .intro-info{
@@ -395,6 +398,7 @@ body{
     .about-sub{
         font-size: 1.5rem;
     }
+
 }
 @media screen and (max-width: 890px){
 .home-content{
@@ -453,6 +457,10 @@ body{
     #photo{
         width:50%;
         height:100%;
+    }
+    .footer-img{
+        height:1.5rem;
+        width: 1.5rem;
     }
 }
 @media screen and (max-width: 680px){
