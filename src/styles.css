@@ -148,7 +148,8 @@ body{
 }
 #about-text{
     margin: 1rem 4rem;
-    padding-right: 100px;
+    padding-left:50px;
+    padding-right: 50px;
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
