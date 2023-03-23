@@ -5,7 +5,10 @@ import imgArr from "./assets/index";
 export const Portfolio = () => {
     return (
         <main className="portfolio">
-            <section>
+
+            <strong>Under Construction!</strong>
+
+            {/* <section>
                 <Project
                     title="Eatsy"
                     image={imgArr[0]}
@@ -36,7 +39,7 @@ export const Portfolio = () => {
                     link="https://world-of-wordcraft.herokuapp.com/"
                     repolink="https://github.com/agtTwilight/project-2.git"
                 />
-            </section>
+            </section> */}
         </main>
     );
 };

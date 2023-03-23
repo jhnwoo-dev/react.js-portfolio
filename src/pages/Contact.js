@@ -28,9 +28,9 @@ export const Contact = () => {
                 <input className="contact-inputs" type="email" name="user_email" />
 
                 <label className="contact-label">Message:</label>
-                <textarea className="contact-inputs message-box" name="message" />
+                <textarea className="contact-inputs" name="message" />
 
-                <input className="contact-btn" type="submit" value="Send" />
+                <input className="send-btn" type="submit" value="Send" />
             </form>
         </section>
     );

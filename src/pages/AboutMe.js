@@ -8,7 +8,7 @@ export const AboutMe = () => {
 
             <section className="aboutme-content">
                 <div id="about-text">
-                    <h3 className="intro-sub">Hello, my name is Jason - Welcome to my portfolio!</h3>
+                    <h3 className="about-sub">Hello, my name is Jason - Welcome to my portfolio!</h3>
                     <p >
                         I am a private banker that has transitioned to software development located in Seattle, Washington.
                         <br />

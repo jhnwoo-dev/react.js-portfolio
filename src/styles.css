@@ -39,7 +39,7 @@ body{
 }
 .header a{
     text-decoration:none;
-    color:inherit
+    color:inherit;
 }
 .title-text:hover{
     color: var(--lightsleeves-blue);
@@ -49,7 +49,7 @@ body{
 }
 .title-text{
     font-size: 2rem;
-    letter-spacing: 4px;
+    letter-spacing: .25rem;
 }
 
 /* Navigation Styling */
@@ -58,7 +58,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    letter-spacing: 2px;
+    letter-spacing: .125rem;
     gap: 2rem;
     align-items: stretch;
 }
@@ -71,25 +71,27 @@ body{
 }
 .nav a {
     color: inherit;
+
 }
-.nav li:hover{
-    color: var(--lightsleeves-blue);
+.nav a:hover{
+    color: var(--lightsleeves-red);
 }
 .nav li:active{
-    color: var(--lightsleeves-blue);
+    color: var(--lightsleeves-red);
 }
 
 /* Resume Button */
 .resume-btn{
+    color: var(--darksleeves-red) !important;
     background-color: var(--lightsleeves-red);
-    border: solid 2px var(--darksleeves-red);
-    padding: 8px;
-    border-radius: 8px;
+    border: solid .125rem var(--darksleeves-red);
+    padding: .5rem;
+    border-radius: .5rem;
 }
 .resume-btn:hover{
     background-color: var(--sleeves-red);
-    color: var(--light-cream);
-    border-radius: 8px;
+    color: var(--light-cream) !important;
+    border-radius: .5rem;
 }
 
 /* Home Styling */
@@ -101,25 +103,20 @@ body{
     justify-content: center;
     align-items: flex-start;
     margin: 0 auto;
-    padding: 0 200px;
-}
-.intro-greeting{
-    font-size: 1rem;
-    margin: 0 0;
-    color: var(--darksleeves-blue)
+    padding: 0 12.5rem;
 }
 .intro-text{
     font-size: 4rem;
-    margin: 4px 0;
+    margin: .25rem 0;
     color: var(--darksleeves-red)
 }
 .intro-sub{
     color: var(--sleeves-blue);
     font-size: 2rem;
-    margin: 4px 0;
+    margin: .25rem 0;
 }
 .intro-info{
-    margin-top: 4px;
+    margin-top: .25rem;
     width: 45%;
 }
 
@@ -133,23 +130,27 @@ body{
 .aboutme-content{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding: 0 350px;
-    margin: 0 0;
+    padding: 0 15rem;
+    margin: 0;
 }
 #photo{
-    width: 40%;
-    height:80%;
-    border-radius: 8px;
+    width: 35%;
+    height:70%;
+    border-radius: .5rem;
 }
 .about-header{
     font-size: 3rem;
     color: var(--darksleeves-red)
 }
+.about-sub{
+    color: var(--sleeves-blue);
+    font-size: 2rem;
+    margin: .25rem 0;
+}
 #about-text{
-    margin: 1rem 4rem;
-    padding-left:50px;
-    padding-right: 50px;
+    margin: 0 0;
+    margin-right: 3.5rem;
+    padding: 0 3rem;
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -170,31 +171,47 @@ body{
     flex-direction: column;
     letter-spacing: 1px;
 }
-.contact-me *{
-    margin: 0;
-    padding: 0;
-}
 .contact-btn{
+    font-size: 2rem;
     margin: 1rem 0;
-    padding: 4px 8px;
-    background-color: var(--sleeves-blue);
-    border: solid 2px var(--darksleeves-blue);
-    border-radius: 8px;
+    padding: .5rem .75rem;
+    background-color: var(--darksleeves-red);
+    border: solid .125rem var(--darksleeves-red);
+    color: var(--light-cream) !important;
+    border-radius: .5rem;
+    transition: 0.3s;
 }
 .contact-btn:hover{
-    background-color: var(--lightsleeves-blue);
+    background-color: var(--darksleeves-blue);
+    border: solid .125rem var(--darksleeves-blue);
+    transform: scale(1.1)
 }
 .contact-inputs{
-    left: 0;
-    margin: 0 0;
-    padding: 4px 8px;
+    padding: .25rem .5rem;
     background-color: white;
-    border: solid 2px var(--dark-cream);
-    border-radius: 8px;
+    border: solid .125rem var(--dark-cream);
+    border-radius: .5rem;
 }
 .contact-label{
     margin-top: 1rem;
-    padding-left: 2px;
+    padding-left: .125rem;
+}
+
+.send-btn{
+    align-self: center;
+    font-size: 1rem;
+    margin: 1rem 0;
+    padding: .4rem .7rem;
+    height: fit-content;
+    width: fit-content;
+    background-color: var(--darksleeves-red);
+    border: solid .125rem var(--darksleeves-red);
+    color: var(--light-cream) !important;
+    border-radius: .5rem;
+}
+.send-btn:hover{
+    background-color: var(--darksleeves-blue);
+    border: solid .125rem var(--darksleeves-blue);
 }
 
 /* Portfolio Styling */
@@ -210,7 +227,7 @@ body{
     padding: 2%;
     height: 500px;
     width: 500px;
-    border-radius: 8px;
+    border-radius: .5rem;
     box-shadow: 0 0 20px rgba(43, 43, 43, 0.4);
     overflow: hidden;
 }
@@ -218,7 +235,7 @@ body{
     height: 50%;
     width: 100%;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: .5rem;
 }
 .card-information {
     display: flex;
@@ -231,7 +248,7 @@ body{
     margin: 15px;
     padding: 5px;
     width: 75px;
-    border-radius: 8px;
+    border-radius: .5rem;
     cursor: pointer;
 }
 .portfolio .card:hover{
@@ -264,21 +281,52 @@ body{
  color: #906466;
 }
 .footer-img{
-    height:35px;
-    width: 35px;
+    height:2rem;
+    width: 2rem;
 }
 .remove-line{
     text-decoration:none;
 }
 
-@media screen and (max-width: 1600px){
+/* Media Queries */
+
+
+@media screen and (max-width: 1660px){
     .intro-info{
         width: 50%
     }
+    .aboutme-content{
+        padding: 0 12rem
+    }
+    .about-text{
+        padding: 0 2.75rem
+    }
+    .about-header{
+        margin: 1.5rem 0
+    }
+    .contact-me{
+        height:50%;
+        width: 30%;
+    }
 }
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1450px){
     .intro-info{
         width: 55%
+    }
+    .aboutme-content{
+        padding: 0 8rem;
+    }
+    #about-text{
+        padding: 0 2.25rem;
+        margin: 0 3rem;
+    }
+    .about-header{
+        margin: 1.25rem 0;
+        font-size: 2.75rem
+    }
+    .contact-me{
+        height:50%;
+        width: 35%;
     }
 }
 @media screen and (max-width: 1200px){
@@ -288,13 +336,42 @@ body{
     .nav ul{
         gap: 2rem;
     }
+    .aboutme-content{
+        padding: 0 6rem;
+    }
+    #about-text{
+        padding: 0 2rem;
+        margin: 0 3rem;
+    }
+    #photo{
+        width: 40%;
+        height: 80%;
+    }
+    .contact-me{
+        height:50%;
+        width: 40%;
+    }
 }
 @media screen and (max-width: 1100px){
     .intro-info{
         width: 75%
     }
     .home-content{
-        padding: 175px
+        padding: 10rem
+    }
+    .aboutme-content{
+        padding: 0 4rem;
+    }
+    #about-text{
+        padding: 0 2rem;
+        margin: 0 2rem;
+    }
+    .about-sub{
+        font-size: 1.75rem;
+    }
+    .contact-me{
+        height:50%;
+        width: 45%;
     }
 }
 @media screen and (max-width: 992px){
@@ -302,13 +379,26 @@ body{
         width: 100%
     }
     .home-content{
-        padding: 150px
+        padding: 9rem
     }
-
+    .aboutme-content{
+        padding: 0 3rem;
+    }
+    #about-text{
+        padding: 0 2rem;
+        margin: 0 2rem;
+    }
+    .about-header{
+        margin: 1rem 0;
+        font-size: 2.5rem;
+    }
+    .about-sub{
+        font-size: 1.5rem;
+    }
 }
 @media screen and (max-width: 890px){
 .home-content{
-    padding: 150px
+    padding: 8rem
 }
 .intro-text{
     font-size: 3.5rem;
@@ -319,10 +409,24 @@ body{
 .nav ul{
     gap: 1.5rem;
 }
+.contact-btn{
+    font-size: 1.5rem;
+    margin: 0;
+    width:fit-content;
+    height: fit-content;
+}
+#about-text{
+    padding: 0 0;
+    margin: 0 1rem;
+}
+.contact-me{
+    height:50%;
+    width: 50%;
+}
 }
 @media screen and (max-width: 768px){
     .home-content{
-        padding: 100px
+        padding: 7rem
     }
     .nav ul{
         font-size: .85rem;
@@ -331,10 +435,29 @@ body{
     .title-text {
         font-size: 1.75rem;
     }
+    .about-header{
+        margin: 1rem 0;
+        font-size: 2.25rem;
+    }
+    .about-sub{
+        font-size: 1.25rem;
+        padding-top: 1rem;
+    }
+
+    .aboutme-content{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 2.5rem;
+        align-items: center;
+    }
+    #photo{
+        width:50%;
+        height:100%;
+    }
 }
 @media screen and (max-width: 680px){
     .nav ul{
-        font-size: .75rem;
+        font-size: .85rem;
         gap: .5rem;
     }
     .title-text {
@@ -350,16 +473,16 @@ body{
         font-size: .85rem;
     }
     .contact-btn{
-        font-size: .85rem;
+        font-size: 1.25rem;
         margin: 0;
         width:fit-content;
         height: fit-content;
     }
 }
-@media screen and (max-width: 550px){
+@media screen and (max-width: 576px){
     .nav ul{
         font-size: .75rem;
-        gap: .25rem;
+        gap: .75rem;
     }
     .title-text {
         font-size: 1.25rem;
@@ -371,10 +494,17 @@ body{
         font-size: 1.25rem;
     }
     .contact-btn{
-        font-size: .75rem;
+        font-size: 1rem;
         margin: 0;
         width:fit-content;
         height: fit-content;
+    }
+    .home-content{
+        padding: 0 4rem;
+    }
+    .contact-me{
+        height:50%;
+        width: 70%;
     }
 }
 
