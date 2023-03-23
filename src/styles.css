@@ -480,6 +480,9 @@ body{
     .intro-greeting{
         font-size: .85rem;
     }
+    .home-content{
+        padding: 0 4rem;
+    }
     .contact-btn{
         font-size: 1.25rem;
         margin: 0;
@@ -488,6 +491,7 @@ body{
     }
 }
 @media screen and (max-width: 576px){
+    
     .nav ul{
         font-size: .75rem;
         gap: .75rem;
@@ -508,7 +512,7 @@ body{
         height: fit-content;
     }
     .home-content{
-        padding: 0 4rem;
+        padding: 0 3rem;
     }
     .contact-me{
         height:50%;
