@@ -1,7 +1,6 @@
-import heroClash from "./heroClash.png";
 import worldOfWordcraft from "./worldOfWordcraft.png";
 import Eatsy from "./Eatsy.png";
 
-const imgArr = [Eatsy, heroClash, worldOfWordcraft];
+const imgArr = [Eatsy, worldOfWordcraft];
 
 export default imgArr;

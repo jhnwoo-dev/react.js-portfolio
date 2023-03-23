@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;1000&display=swap');
 
 *{
     box-sizing: border-box;
@@ -40,6 +40,7 @@ body{
 .header a{
     text-decoration:none;
     color:inherit;
+    font-weight:500;
 }
 .title-text:hover{
     color: var(--lightsleeves-blue);
@@ -67,11 +68,11 @@ body{
     margin: 0;
     list-style:none;
     display: flex;
-    gap: 3rem
+    gap: 3rem;
 }
 .nav a {
     color: inherit;
-
+    font-weight: 600;
 }
 .nav a:hover{
     color: var(--lightsleeves-red);
@@ -173,8 +174,9 @@ body{
 }
 .contact-btn{
     font-size: 2rem;
+    font-weight: 600;
     margin: 1rem 0;
-    padding: .5rem .75rem;
+    padding: .3rem .6rem;
     background-color: var(--darksleeves-red);
     border: solid .125rem var(--darksleeves-red);
     color: var(--light-cream) !important;
@@ -195,6 +197,7 @@ body{
 .contact-label{
     margin-top: 1rem;
     padding-left: .125rem;
+    font-weight: 600;
 }
 
 .send-btn{
@@ -285,6 +288,9 @@ body{
 }
 .remove-line{
     text-decoration:none;
+}
+.strong-nunito{
+    font-weight: 700;
 }
 
 /* Media Queries */
