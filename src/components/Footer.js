@@ -4,7 +4,7 @@ import linkedin from "./assets/linked-in.png";
 
 export const Footer = () => {
     return (
-        <div className="footer">
+        <footer className="footer">
             <ul>
                 <li>
                     <a href="https://github.com/jhnwoo-dev" target="_blank">
@@ -18,7 +18,7 @@ export const Footer = () => {
                     </a>
                 </li>
             </ul>
-        </div>
+        </footer>
     );
 };
 

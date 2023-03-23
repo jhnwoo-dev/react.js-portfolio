@@ -4,8 +4,8 @@ import imgArr from "./assets/index";
 
 export const Portfolio = () => {
     return (
-        <div className="portfolio">
-            <div>
+        <main className="portfolio">
+            <section>
                 <Project
                     title="Eatsy"
                     image={imgArr[0]}
@@ -14,9 +14,9 @@ export const Portfolio = () => {
                     link="https://eatsyfoods.netlify.app/"
                     repolink="https://github.com/binh-ngo/eatsy-front-end.git"
                 />
-            </div>
+            </section>
 
-            <div>
+            <section>
                 <Project
                     title="Hero Clash"
                     image={imgArr[1]}
@@ -25,9 +25,9 @@ export const Portfolio = () => {
                     link="https://jhnwoo-dev.github.io/hero-clash/"
                     repolink="https://github.com/jhnwoo-dev/hero-clash.git"
                 />
-            </div>
+            </section>
 
-            <div>
+            <section>
                 <Project
                     title="World of Wordcraft"
                     image={imgArr[2]}
@@ -36,8 +36,8 @@ export const Portfolio = () => {
                     link="https://world-of-wordcraft.herokuapp.com/"
                     repolink="https://github.com/agtTwilight/project-2.git"
                 />
-            </div>
-        </div>
+            </section>
+        </main>
     );
 };
 

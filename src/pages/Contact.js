@@ -18,7 +18,7 @@ export const Contact = () => {
     };
 
     return (
-        <div className="contact-container">
+        <section className="contact-container">
             <form className="contact-me" ref={form} onSubmit={sendEmail}>
 
                 <label className="contact-label">Name:</label>
@@ -32,7 +32,7 @@ export const Contact = () => {
 
                 <input className="contact-btn" type="submit" value="Send" />
             </form>
-        </div>
+        </section>
     );
 };
 

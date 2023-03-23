@@ -28,7 +28,7 @@ body{
 
 /* Header Styling */
 .header{
-    height: auto;
+    height: 4rem;
     background-color: var(--sleeves-blue);
     display: flex;
     flex-direction: row;
@@ -70,13 +70,13 @@ body{
     gap: 3rem
 }
 .nav a {
- color: inherit;
+    color: inherit;
 }
 .nav li:hover{
- color: var(--lightsleeves-blue);
+    color: var(--lightsleeves-blue);
 }
 .nav li:active{
- color: var(--lightsleeves-blue);
+    color: var(--lightsleeves-blue);
 }
 
 /* Resume Button */
@@ -246,8 +246,6 @@ body{
     bottom: 0;
     left:50%;
     transform: translateX(-50%);
-    letter-spacing: 2px;
-    align-items: stretch;
 }
 .footer ul{
     padding:0;
@@ -271,5 +269,21 @@ body{
 }
 .remove-line{
     text-decoration:none;
+}
+
+@media screen and (min-width: 1200px){
+    
+}
+@media screen and (min-width: 992px){
+
+}
+@media screen and (min-width: 768px){
+
+}
+@media screen and (min-width: 600px){
+
+}
+@media screen and (max-width: 600px){
+
 }
 

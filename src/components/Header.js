@@ -3,7 +3,7 @@ import Navigation from "./Navigation";
 
 export const Header = () => {
     return (
-        <div className="header">
+        <header className="header">
 
             <a className="title-text" href="/">
                 Welcome
@@ -11,7 +11,7 @@ export const Header = () => {
 
             <Navigation />
 
-        </div>
+        </header>
     );
 };
 

@@ -2,12 +2,13 @@ import React, { useState } from "react";
 
 export const Project = (props) => {
     return (
-        <div className="card">
+        <main className="card">
             <img src={props.image} alt={props.imgdescript}></img>
-            <div className="card-information">
+
+            <figure className="card-information">
                 <h2>{props.title}</h2>
                 <p>{props.description}</p>
-                <div className="card-btn">
+                <details className="card-btn">
                     <a
                         href={props.link}
                         target="_blank"
@@ -23,9 +24,10 @@ export const Project = (props) => {
                         id="repo-btn">
                         <button type="button">GitHub</button>
                     </a>
-                </div>
-            </div>
-        </div>
+                </details>
+            </figure>
+
+        </main>
     );
 };
 
