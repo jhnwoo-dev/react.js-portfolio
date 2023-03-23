@@ -5,6 +5,7 @@ import linkedin from "./assets/linked-in.png";
 export const Footer = () => {
     return (
         <footer className="footer">
+            {/* <p>&#169; Jason Nguyen 2023</p> */}
             <ul>
                 <li>
                     <a href="https://github.com/jhnwoo-dev" target="_blank">

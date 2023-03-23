@@ -6,25 +6,31 @@ export const Project = (props) => {
             <img src={props.image} alt={props.imgdescript}></img>
 
             <section className="card-information">
-                <h2>{props.title}</h2>
-                <p>{props.description}</p>
-                <div className="card-btn">
+
+                <h2>
                     <a
+                        className="project-title"
                         href={props.link}
                         target="_blank"
                         rel="noreferrer"
                         id="link-btn">
-                        <button type="button">Link</button>
+                        {props.title}
                     </a>
+                </h2>
+                <h3 className="project-tech info-margins">{props.technology}</h3>
+                <p className="info-margins">{props.description}</p>
+                <p className="info-margins">{props.responsibility}</p>
 
+                <div className="card-btn">
                     <a
                         href={props.repolink}
                         target="_blank"
                         rel="noreferrer"
                         id="repo-btn">
-                        <button type="button">GitHub</button>
+                        <button type="button">GitHub Repo</button>
                     </a>
                 </div>
+
             </section>
 
         </main>
