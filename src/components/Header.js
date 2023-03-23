@@ -6,7 +6,7 @@ export const Header = () => {
         <header className="header">
 
             <a className="title-text" href="/">
-                Welcome
+                J.N.
             </a>
 
             <Navigation />

@@ -5,10 +5,10 @@ export const Project = (props) => {
         <main className="card">
             <img src={props.image} alt={props.imgdescript}></img>
 
-            <figure className="card-information">
+            <section className="card-information">
                 <h2>{props.title}</h2>
                 <p>{props.description}</p>
-                <details className="card-btn">
+                <div className="card-btn">
                     <a
                         href={props.link}
                         target="_blank"
@@ -24,8 +24,8 @@ export const Project = (props) => {
                         id="repo-btn">
                         <button type="button">GitHub</button>
                     </a>
-                </details>
-            </figure>
+                </div>
+            </section>
 
         </main>
     );

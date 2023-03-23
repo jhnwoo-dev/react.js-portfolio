@@ -120,7 +120,7 @@ body{
 }
 .intro-info{
     margin-top: 4px;
-    width: 40%;
+    width: 45%;
 }
 
 /* About-Me Styling*/
@@ -165,7 +165,7 @@ body{
     margin: auto;
     top:0; bottom: 0; left: 0; right: 0;
     height:50%;
-    width: 50%;
+    width: 25%;
     display: flex;
     flex-direction: column;
     letter-spacing: 1px;
@@ -271,19 +271,111 @@ body{
     text-decoration:none;
 }
 
-@media screen and (min-width: 1200px){
-    
+@media screen and (max-width: 1600px){
+    .intro-info{
+        width: 50%
+    }
 }
-@media screen and (min-width: 992px){
+@media screen and (max-width: 1400px){
+    .intro-info{
+        width: 55%
+    }
+}
+@media screen and (max-width: 1200px){
+    .intro-info{
+        width: 65%
+    }
+    .nav ul{
+        gap: 2rem;
+    }
+}
+@media screen and (max-width: 1100px){
+    .intro-info{
+        width: 75%
+    }
+    .home-content{
+        padding: 175px
+    }
+}
+@media screen and (max-width: 992px){
+    .intro-info{
+        width: 100%
+    }
+    .home-content{
+        padding: 150px
+    }
 
 }
-@media screen and (min-width: 768px){
-
+@media screen and (max-width: 890px){
+.home-content{
+    padding: 150px
 }
-@media screen and (min-width: 600px){
-
+.intro-text{
+    font-size: 3.5rem;
 }
-@media screen and (max-width: 600px){
-
+.intro-sub{
+    font-size: 1.75rem;
 }
+.nav ul{
+    gap: 1.5rem;
+}
+}
+@media screen and (max-width: 768px){
+    .home-content{
+        padding: 100px
+    }
+    .nav ul{
+        font-size: .85rem;
+        gap: 1rem;
+    }
+    .title-text {
+        font-size: 1.75rem;
+    }
+}
+@media screen and (max-width: 680px){
+    .nav ul{
+        font-size: .75rem;
+        gap: .5rem;
+    }
+    .title-text {
+        font-size: 1.5rem;
+    }
+    .intro-text{
+        font-size: 3rem;
+    }
+    .intro-sub{
+        font-size: 1.5rem;
+    }
+    .intro-greeting{
+        font-size: .85rem;
+    }
+    .contact-btn{
+        font-size: .85rem;
+        margin: 0;
+        width:fit-content;
+        height: fit-content;
+    }
+}
+@media screen and (max-width: 550px){
+    .nav ul{
+        font-size: .75rem;
+        gap: .25rem;
+    }
+    .title-text {
+        font-size: 1.25rem;
+    }
+    .intro-text{
+        font-size: 2.5rem;
+    }
+    .intro-sub{
+        font-size: 1.25rem;
+    }
+    .contact-btn{
+        font-size: .75rem;
+        margin: 0;
+        width:fit-content;
+        height: fit-content;
+    }
+}
+
 
