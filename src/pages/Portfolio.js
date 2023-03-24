@@ -16,7 +16,7 @@ export const Portfolio = () => {
 
                     description="Eatsy is a social media application developed with a React.js front end and MongoDB database for home cooks, foodies, and chefs to connect and share their recipes with each other!"
 
-                    responsibility="My role in this application was to manage the project design direction, as well as assisting in a handful of backend routes that would allow us to fetch certain data points for use in the front end."
+                    responsibility="My role in this application was to manage the project design direction, as well as assisting in a handful of backend routes that would allow us to fetch user data points for use in the editing of user profiles."
 
                     link="https://eatsyfoods.netlify.app/"
                     repolink="https://github.com/binh-ngo/eatsy-front-end.git"

@@ -18,8 +18,8 @@ export const Project = (props) => {
                     </a>
                 </h2>
                 <h3 className="project-tech info-margins">{props.technology}</h3>
-                <p className="info-margins">{props.description}</p>
-                <p className="info-margins">{props.responsibility}</p>
+                <p className="info-margins project-text">{props.description}</p>
+                <p className="info-margins project-text">{props.responsibility}</p>
 
                 <div className="card-btn">
                     <a
