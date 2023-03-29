@@ -107,23 +107,30 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+     /* for left alignment, set align-items: flex-start*/
+    align-items: center;
     margin: 0 auto;
     padding: 0 12.5rem;
 }
 .intro-text{
-    font-size: 4rem;
+        /* for align-items: flex-start, set font-size to 4rem */
+    font-size: 4.5rem;
     margin: .25rem 0;
     color: var(--darksleeves-red)
 }
 .intro-sub{
     color: var(--sleeves-blue);
-    font-size: 2rem;
+    /* for align-items: flex-start, set font size to 2rem */
+    font-size: 2.5rem;
     margin: .25rem 0;
 }
 .intro-info{
-    margin-top: .25rem;
-    width: 45%;
+    /* for align-items: flex-start, set margin-top to .25rem */
+    margin-top: 1rem;
+    /* for align-items: flex-start, set width to 45% */
+    width: 65%;
+    /* for align-items: flex-start, remove font-size */
+    font-size: 1.2rem;
 }
 /* ======================================================================================================================================= */
 /* ======================================================================================================================================= */
@@ -162,6 +169,7 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    font-size: 1.15rem;
 }
 /* ======================================================================================================================================= */
 /* ======================================================================================================================================= */
@@ -250,7 +258,6 @@ body{
     margin-bottom: 4rem;
     padding: 1rem 3rem;
     height: 100%;
-    width: fit-content;
 }
 .card img {
     box-shadow: 3px 3px 4px var(--dark-cream);
@@ -303,6 +310,9 @@ body{
     margin-bottom:1rem;
     padding-right:10rem;
 }
+.project-text{
+    font-size:1.05rem
+}
 
 /* ======================================================================================================================================= */
 /* ======================================================================================================================================= */
@@ -319,15 +329,6 @@ body{
     list-style: none;
     display: flex;
     gap: 1rem
-}
-.footer a{
-    color:inherit;
-}
-.footer:hover{
- color: #906466;
-}
-.footer:active{
- color: #906466;
 }
 .footer-img{
     height:2rem;
